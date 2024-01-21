@@ -1,0 +1,31 @@
+#clock {
+  width: 20em;
+  height: 20em;
+  border: 3px solid black;
+  border-radius: 100%;
+}
+#second,
+#min,
+#hour {
+  position: absolute;
+  width: 3px;
+  left: 10em;
+  margin: auto;
+  transform-origin: bottom;
+}
+#second {
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+  top: 1.4%;
+}
+
+#min {
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  top: 10%;
+}
+#hour {
+  top: 13%;
+  height: 80px;
+  background-color: rgb(0, 17, 255);
+}
